@@ -29,5 +29,13 @@ function calcCount(original,filters){
 	return count;
 }//calcCount
 
+//another way to find out count by using filter method
+function calcCountWithFilterMethod(original,filters){
+	var count = original.filter(function(a){
+		return a===filters;
+	});
+	return count.length;
+}
+
 var a=[4,3,3,6,3,1,6];
 print(a); //3,6
