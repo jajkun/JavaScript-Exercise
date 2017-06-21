@@ -21,5 +21,5 @@ function factorialWithLoop(number){
 }
 
 var result = factorialWithRecursive(10);
-//var result = factorialWithLoop(1);
+//var result = factorialWithLoop(10);
 console.log(result);
