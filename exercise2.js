@@ -17,3 +17,26 @@ function sum(array){
 	return sum;
 }
 console.log(sum([1,2,3]));
+
+//移除数组 arr 中的所有值与 item 相等的元素 例: input: remove([3,4,5],3); output: [4,5]
+function remove(array,item){
+	var newArr=[];
+	array.forEach(function(e){
+		if(e!=item){
+			newArr.push(e);
+		}
+	});
+	return newArr;
+}
+
+function removeFromArray(array,item){
+	for(var i in array){
+		if(array[i]==item){
+			array.splice(i,1);
+		}
+	}
+	return array;
+}
+
+var newArray = removeFromArray([3,4,5],3);
+console.log(newArray);
