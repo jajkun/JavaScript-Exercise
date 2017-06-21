@@ -1,4 +1,4 @@
-//------- [4,3,3,6,3,1,6] to print 3 out? --------------
+//------- [4,3,3,6,3,1,6] to print 3 and 6 out? --------------
 function print(array){
 	//first to filter array
 	var filterArray=[];
@@ -30,4 +30,4 @@ function calcCount(original,filters){
 }//calcCount
 
 var a=[4,3,3,6,3,1,6];
-print(a); //3
+print(a); //3,6
