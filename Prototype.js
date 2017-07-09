@@ -15,10 +15,9 @@ cat.prototype = new Animal("mammal");
 cat.prototype.constructor = cat;
 chicken.prototype = new Animal("bird");
 chicken.prototype.constructor = chicken;
-
+//test
 var catObj = new cat('catSample1');
 var chickObj = new chicken('chickenSample1');
-
 console.log("cat is a "+catObj.type);
 console.log("chicken is a "+chickObj.type);
 
